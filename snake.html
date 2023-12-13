@@ -30,62 +30,64 @@
   <link rel="stylesheet" href="./css/snake.css" />
 
 <body class="sub_page">
-  <div class="hero_area">
-    <!-- header section strats -->
-    <header class="header_section">
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
-            <span>
-              game.io
-            </span>
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
-              <ul class="navbar-nav  ">
-                <li class="nav-item ">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="snake.html"> Snake Game </a>
-                </li>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link" href="tictactoe.html"> tictactoe game</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html"> Contact Us</a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link" href="about.html"> About Us</a>
-                </li>
-              </ul>
-
+  <section class="sky">
+    <div class="hero_area">
+      <!-- header section strats -->
+      <header class="header_section">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container ">
+            <a class="navbar-brand" href="index.html">
+              <span>
+                game.io
+              </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+                <ul class="navbar-nav  ">
+                  <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="snake.html"> Snake Game </a>
+                  </li>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="tictactoe.html"> tictactoe game</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html"> Contact Us</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="about.html"> About Us</a>
+                  </li>
+                </ul>
+  
+              </div>
             </div>
-          </div>
-        </nav>
-      </div>
-    </header>
-    <!-- end header section -->
-  </div>
-
-
-  <!-- start section -->
-
-  <section class="trainer_section layout_padding">
-    <div class="container">
-      <div id="gameContainer">
-        <canvas id="gameBoard" width="900" height="249"></canvas>
-        <div id="scoreText">0</div>
-        <button id="resetBtn">Reset</button>
-      </div>
-      <script src="./js/snake.js"></script>
+          </nav>
+        </div>
+      </header>
+      <!-- end header section -->
     </div>
+  
+  
+    <!-- start section -->
+  
+    <section class="trainer_section layout_padding">
+      <div class="container">
+        <div id="gameContainer">
+          <canvas id="gameBoard" width="900" height="249"></canvas>
+          <div id="scoreText">0</div>
+          <button id="resetBtn">Reset</button>
+        </div>
+        <script src="./js/snake.js"></script>
+      </div>
+    </section>
   </section>
 
   <!-- end  section -->
@@ -94,6 +96,7 @@
 
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
+  <script src="js/snoweffect.js"></script>
 
 </body>
 

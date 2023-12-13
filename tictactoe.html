@@ -31,119 +31,121 @@
 </head>
 
 <body class="sub_page">
-  <div class="hero_area">
-    <!-- header section strats -->
-    <header class="header_section">
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
-            <span>
-              game.io
-            </span>
+  <section class="sky">
+    <div class="hero_area">
+      <!-- header section strats -->
+      <header class="header_section">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container ">
+            <a class="navbar-brand" href="index.html">
+              <span>
+                game.io
+              </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+                <ul class="navbar-nav  ">
+                  <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link " href="snake.html"> Snake Game </a>
+                  </li>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="tictactoe.html"> tictactoe game</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html"> Contact Us</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="about.html"> About Us</a>
+                  </li>
+                </ul>
+  
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- end header section -->
+    </div>
+  
+  
+    <!-- start section -->
+  
+    <section class="us_section layout_padding">
+      <div id="gameContainer">
+        <h1>Tic Tac Toe</h1>
+        <div id="cellContainer">
+          <div cellIndex="0" class="cell"></div>
+          <div cellIndex="1" class="cell"></div>
+          <div cellIndex="2" class="cell"></div>
+          <div cellIndex="3" class="cell"></div>
+          <div cellIndex="4" class="cell"></div>
+          <div cellIndex="5" class="cell"></div>
+          <div cellIndex="6" class="cell"></div>
+          <div cellIndex="7" class="cell"></div>
+          <div cellIndex="8" class="cell"></div>
+        </div>
+        <h2 id="statusText"></h2>
+        <button id="restartBtn">Restart</button>
+      </div>
+      <script src="./js/tictactoe.js"></script>
+      </div>
+    </section>
+  
+    <!-- end section -->
+  
+  
+    <!-- info section -->
+    <section class="info_section layout_padding2">
+      <div class="container">
+        <div class="info_items">
+          <a href="">
+            <div class="item ">
+              <div class="img-box box-1">
+                <img src="" alt="">
+              </div>
+              <div class="detail-box">
+                <p>
+                  Location
+                </p>
+              </div>
+            </div>
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
-              <ul class="navbar-nav  ">
-                <li class="nav-item ">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link " href="snake.html"> Snake Game </a>
-                </li>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="tictactoe.html"> tictactoe game</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html"> Contact Us</a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link" href="about.html"> About Us</a>
-                </li>
-              </ul>
-
+          <a href="">
+            <div class="item ">
+              <div class="img-box box-2">
+                <img src="" alt="">
+              </div>
+              <div class="detail-box">
+                <p>
+                  +84 123456789
+                </p>
+              </div>
             </div>
-          </div>
-        </nav>
+          </a>
+          <a href="">
+            <div class="item ">
+              <div class="img-box box-3">
+                <img src="" alt="">
+              </div>
+              <div class="detail-box">
+                <p>
+                  demo@gmail.com
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
       </div>
-    </header>
-    <!-- end header section -->
-  </div>
-
-
-  <!-- start section -->
-
-  <section class="us_section layout_padding">
-    <div id="gameContainer">
-      <h1>Tic Tac Toe</h1>
-      <div id="cellContainer">
-        <div cellIndex="0" class="cell"></div>
-        <div cellIndex="1" class="cell"></div>
-        <div cellIndex="2" class="cell"></div>
-        <div cellIndex="3" class="cell"></div>
-        <div cellIndex="4" class="cell"></div>
-        <div cellIndex="5" class="cell"></div>
-        <div cellIndex="6" class="cell"></div>
-        <div cellIndex="7" class="cell"></div>
-        <div cellIndex="8" class="cell"></div>
-      </div>
-      <h2 id="statusText"></h2>
-      <button id="restartBtn">Restart</button>
-    </div>
-    <script src="./js/tictactoe.js"></script>
-    </div>
-  </section>
-
-  <!-- end section -->
-
-
-  <!-- info section -->
-  <section class="info_section layout_padding2">
-    <div class="container">
-      <div class="info_items">
-        <a href="">
-          <div class="item ">
-            <div class="img-box box-1">
-              <img src="" alt="">
-            </div>
-            <div class="detail-box">
-              <p>
-                Location
-              </p>
-            </div>
-          </div>
-        </a>
-        <a href="">
-          <div class="item ">
-            <div class="img-box box-2">
-              <img src="" alt="">
-            </div>
-            <div class="detail-box">
-              <p>
-                +84 123456789
-              </p>
-            </div>
-          </div>
-        </a>
-        <a href="">
-          <div class="item ">
-            <div class="img-box box-3">
-              <img src="" alt="">
-            </div>
-            <div class="detail-box">
-              <p>
-                demo@gmail.com
-              </p>
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
+    </section>
   </section>
 
   <!-- end info_section -->
@@ -151,6 +153,7 @@
 
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
+  <script src="js/snoweffect.js"></script>
 
 </body>
 
