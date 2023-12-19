@@ -3,7 +3,7 @@ $white: #ffffff;
 $primary1: #ff2953;
 
 @mixin main-font {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 @mixin hero_btn($col1, $col2, $pad1, $pad2, $bRadius) {
@@ -106,7 +106,8 @@ body {
   height: auto;
 }
 
-.header_section {}
+.header_section {
+}
 
 .header_section .container-fluid {
   padding-right: 25px;
@@ -203,7 +204,6 @@ a:focus {
     position: relative;
     z-index: 3;
   }
-
 }
 
 .custom_nav-container {
@@ -248,7 +248,6 @@ a:focus {
     h3 {
       text-transform: uppercase;
       font-weight: bold;
-
     }
 
     h2 {
@@ -258,10 +257,8 @@ a:focus {
     h1 {
       font-size: 3.5rem;
       font-weight: bold;
-      letter-spacing: .5rem;
+      letter-spacing: 0.5rem;
     }
-
-
 
     p {
       margin-top: 25px;
@@ -273,8 +270,6 @@ a:focus {
       margin-top: 35px;
     }
   }
-
-
 
   #carouselExampleIndicators {
     .carousel-indicators {
@@ -300,7 +295,6 @@ a:focus {
 }
 
 // end slider section
-
 
 // us section
 
@@ -340,7 +334,6 @@ a:focus {
   }
 }
 
-
 // end us section
 
 // heathy section
@@ -368,13 +361,11 @@ a:focus {
     a {
       @include hero_btn($white, $black, 8px, 35px, 0);
       text-transform: uppercase;
-
     }
   }
 }
 
 // end heathy section
-
 
 // trainer section
 
@@ -396,7 +387,6 @@ a:focus {
         font-weight: bold;
         margin-bottom: 15px;
       }
-
     }
 
     .img-box {
@@ -420,9 +410,7 @@ a:focus {
   }
 }
 
-
 // end trainer section
-
 
 // contact section
 .contact_section {
@@ -452,14 +440,12 @@ a:focus {
     }
   }
 
-
-
   .form_container {
     padding: 45px 0 45px 15px;
-
   }
 
-  form {}
+  form {
+  }
 
   input {
     width: 100%;
@@ -488,14 +474,9 @@ a:focus {
     margin: 45px 0 0 auto;
     text-transform: uppercase;
   }
-
 }
 
 // end contact section
-
-
-
-
 
 // info section
 .info_section {
@@ -556,9 +537,6 @@ a:focus {
 
 // end info section
 
-
-
-
 /* footer section*/
 
 .footer_section {
@@ -576,5 +554,6 @@ a:focus {
 .footer_section a {
   color: #292929;
 }
+
 
 /* end footer section*/
