@@ -597,3 +597,75 @@ body {
   
   /* end footer section*/
   /*# sourceMappingURL=style.css.map */
+
+  .santa {
+    z-index: 1;
+    position: fixed;
+    height: 100px !important;
+    right: -20%;
+    top: 10%;
+    -webkit-animation: Santa 10s linear infinite;
+  }
+  
+  @-webkit-keyframes Santa {
+    0% {
+      right: -10%;
+      top: 160px;
+    }
+    
+    10% {
+      right: 20%;
+      top: 133px;
+    }
+    
+    20% {
+      right: 40%;
+      top: 170px;
+    }
+    
+    30% {
+      right: 60%;
+      top: 135px;
+    }
+    
+    40% {
+      right: 80%;
+      top: 135px;
+    }
+    
+    50% {
+      right: 120%;
+      top: 142px;
+    }
+    
+    60% {
+      right: 80%;
+      top: 147px;
+    }
+    
+    70% {
+      right: 60%;
+      top: 135px;
+    }
+    
+    80% {
+      right: 40%;
+      top: 170px;
+    }
+    
+    90% {
+      right: 20%;
+      top: 133px;
+    }
+    
+    99% {
+      top: 131px;
+    }
+    
+    100% {
+      top: 40px;
+      left: -20%;
+      transform: rotateY(180deg)
+    }
+  
+  }
