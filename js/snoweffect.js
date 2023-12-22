@@ -1,7 +1,7 @@
 (function () {
 
     var COUNT = 300;
-    var masthead = document.querySelector('.sky');
+    var masthead = document.querySelector('.hero_area');
     var canvas = document.createElement('canvas');
     var ctx = canvas.getContext('2d');
     var width = masthead.clientWidth;
